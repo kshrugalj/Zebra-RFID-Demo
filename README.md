@@ -1,7 +1,7 @@
 # HAWK-EYE Autonomous Reshop System
 
-[cite_start]**Project by: Team 6** (Adit, Akash, Kshrugal, Manu, Rishi, Sanjay) [cite: 3, 4]
-[cite_start]**In partnership with:** Walmart & ZEBRA [cite: 1, 5]
+**Project by: Team 6** (Adit, Akash, Kshrugal, Manu, Rishi, Sanjay) [cite: 3, 4]
+**In partnership with:** Walmart & ZEBRA [cite: 1, 5]
 
 ---
 
