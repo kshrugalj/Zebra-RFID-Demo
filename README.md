@@ -1,200 +1,72 @@
-<br />
-<div align="center">
-  <a href="https://github.com/your_username/repo_name">
-    <img src="https://i.imgur.com/your-logo-image.png" alt="Logo" width="80" height="80">
-  </a>
+# HAWK-EYE Autonomous Reshop System
 
-<h3 align="center">HAWKEYE: Autonomous Reshop Revolution</h3>
+[cite_start]**Project by: Team 6** (Adit, Akash, Kshrugal, Manu, Rishi, Sanjay) [cite: 3, 4]
+[cite_start]**In partnership with:** Walmart & ZEBRA [cite: 1, 5]
 
-  <p align="center">
-    [cite_start]An end-to-end autonomous solution that finds, picks, and consolidates misplaced items in a retail environment[cite: 18].
-    <br />
-    <a href="#about-the-project"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="#usage">View Demo</a>
-    ·
-    <a href="https://github.com/your_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/your_username/repo_name/issues">Request Feature</a>
-  </p>
-</div>
+---
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+## 1. Overview
 
-## About The Project
+[cite_start]HAWK-EYE is an end-to-end autonomous solution designed to find, pick, and consolidate misplaced items within a retail environment[cite: 17, 18]. [cite_start]By automating the tedious and time-consuming "reshop" process, HAWK-EYE converts wasted labor into productive work, enhances the associate and customer experience, and delivers a clear return on investment[cite: 81, 130].
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## 2. The Problem: The Hidden Cost of Misplaced Items
 
-[cite_start]In retail, misplaced items represent a hidden cost and a silent drain on productivity and profit[cite: 6, 7]. [cite_start]Associates can spend up to two hours per shift manually searching for misplaced products, a slow and labor-intensive process that detracts from customer service and critical stocking tasks[cite: 9, 11]. [cite_start]According to Walmart Associate Yusuf Abdin, "At least two hours of my shift, every single day, is just hunting for things that aren't where they're supposed to be"[cite: 14, 15].
+[cite_start]Misplaced items are a silent drain on retail productivity and profit[cite: 7]. [cite_start]The current manual process is slow, labor-intensive, and inefficient[cite: 11].
 
-HAWKEYE addresses this challenge directly. [cite_start]It is an autonomous system designed to **Detect**, **Retrieve**, and **Consolidate** misplaced items, converting wasted labor into productive work[cite: 81].
+* [cite_start]**Wasted Labor:** Walmart associates spend up to two hours per shift manually searching for misplaced items[cite: 9, 14]. [cite_start]This is time spent on low-value tasks instead of helping customers or performing critical stocking duties[cite: 10, 11, 14].
+* [cite_start]**Operational Inefficiency:** Associates are pulled away from core responsibilities to load and move heavy reshop carts, hindering overall store productivity[cite: 10, 11].
 
-Here's why HAWKEYE is a revolutionary solution:
-* [cite_start]**Efficiency:** By automating the reshop process, HAWKEYE frees up associates to focus on high-value tasks like customer interaction and shelf stocking[cite: 124, 125].
-* [cite_start]**Speed:** The system is projected to be 70% faster than the manual process, reducing item retrieval time from ~5 minutes to ~1.5 minutes per item[cite: 82].
-* [cite_start]**ROI:** HAWKEYE is designed to pay for itself in approximately 24 months by significantly reducing labor costs associated with manual reshopping[cite: 83]. [cite_start]The system is projected to reduce daily labor from 10 hours to just 2 hours for supervision[cite: 82].
-* [cite_start]**Improved Experience:** It leads to a better experience for both associates, by eliminating frustrating tasks [cite: 123][cite_start], and customers, by ensuring better on-shelf availability and a more organized store[cite: 128, 129].
+> "At least two hours of my shift, every single day, is just hunting for things that aren't where they're supposed to be. That's time I'm not on the floor helping customers find what they need." - [cite_start]Yusuf Abdin, Walmart Associate [cite: 14, 15]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 3. The Solution: The HAWK-EYE System
 
-### Built With
+[cite_start]HAWK-EYE automates the entire reshop process through a three-step system[cite: 18]:
 
-The HAWKEYE system is an integrated solution leveraging industry-leading hardware and intelligent software.
+1.  [cite_start]**DETECT:** An in-store RFID infrastructure identifies misplaced items in real-time, pinpointing their exact coordinates[cite: 21, 22, 31].
+2.  [cite_start]**RETRIEVE:** An autonomous mobile robot is dispatched to the precise location to retrieve the item from the shelf[cite: 23, 24].
+3.  [cite_start]**CONSOLIDATE:** The robot collects multiple items and brings them to a central point for a fast, bulk return process, eliminating item-by-item manual scans[cite: 25, 26, 74, 75].
 
-* **Central Command & Control (The Brain):**
-    * [![Zebra][Zebra.com]][Zebra-url]
-    * [cite_start]Zebra Aurora Software serves as the central command, managing the robot fleet and orchestrating all hardware movements through its SDK and APIs[cite: 28, 29, 35].
+## 4. System Architecture & Technology
 
-* **Mobile Platform (The Legs):**
-    * [![Zebra][Zebra.com]][Zebra-url]
-    * [cite_start]The Zebra Fetch Freight100 is an autonomous mobile base that uses LiDAR and 3D cameras for safe and reliable navigation alongside shoppers[cite: 51, 52, 53, 54].
+[cite_start]The HAWK-EYE system is built on a robust platform of Zebra-certified hardware and intelligent software[cite: 58].
 
-* **Robotic Manipulator (The Arm):**
-    * [![Universal Robots][UniversalRobots.com]][UR-url]
-    * [cite_start]A Universal Robots UR5e, a Zebra Certified Payload, provides an 850mm reach and a 5 kg payload capacity to access items from floor to eye level[cite: 57, 58, 59, 61].
+* **The Brain (Software):**
+    * [cite_start]**Zebra Aurora Software:** Serves as the central command and control for the entire operation[cite: 28, 29]. [cite_start]It manages the robot fleet via an intelligent task queue and orchestrates the hardware's movements using its SDK and APIs[cite: 32, 33, 35, 36].
+    * [cite_start]**Intelligent Queue:** A proprietary machine learning model integrates with Aurora to create the most efficient retrieval path[cite: 39]. [cite_start]It prioritizes items based on factors like perishability, on-shelf quantity, and price[cite: 39, 46, 47, 48].
 
-* **Perception System (The Senses):**
-    * [![Zebra][Zebra.com]][Zebra-url]
-    * [cite_start]**Vision:** Zebra Aurora™ Vision, an arm-mounted industrial camera, uses AI to pinpoint items on cluttered shelves[cite: 67, 70].
-    * [cite_start]**Touch:** A custom, foam-based suction gripper gently handles a wide variety of packaging, from cardboard boxes to plastic[cite: 69, 71].
+* **The Body (Hardware):**
+    * [cite_start]**The Legs (Base):** **Zebra Fetch Freight100** Autonomous Mobile Robot[cite: 50, 51]. [cite_start]It navigates safely alongside shoppers and associates using LiDAR and 3D cameras[cite: 53, 54].
+    * [cite_start]**The Arm:** **Universal Robots UR5e**, a Zebra Certified Payload[cite: 56, 57, 58]. [cite_start]It provides an 850 mm reach and a 5 kg payload capacity to access items from floor to eye level[cite: 59, 61, 63].
+    * [cite_start]**The Eyes (Vision):** **Zebra Aurora™ Vision**, an arm-mounted industrial camera that uses AI to pinpoint the exact location of a target item on a cluttered shelf[cite: 66, 67, 70].
+    * [cite_start]**The Hand (Gripper):** A **Custom Suction Gripper** with a versatile foam-based end-effector that can gently and securely grip everything from cardboard boxes to plastic packaging[cite: 68, 69, 71].
+    * [cite_start]**Consolidation Scanner:** A dock-mounted **ZEBRA FXP20 POS RFID Reader** for automated, error-free bulk scanning of returned items[cite: 73, 76, 78].
 
-* **Item Detection Infrastructure:**
-    * [![Zebra][Zebra.com]][Zebra-url]
-    * [cite_start]An in-store RFID infrastructure identifies misplaced items in real-time[cite: 22]. [cite_start]The system uses a ZEBRA FXP20 POS RFID Reader for automated bulk scanning during the consolidation phase[cite: 73, 74, 78].
+## 5. Financial Impact & ROI
 
-* **Task Prioritization (Intelligent Queue):**
-    * [cite_start]A proprietary machine learning model integrates with Zebra Aurora to create the most efficient retrieval path[cite: 39]. [cite_start]The model analyzes items based on priority factors like perishability, quantity left, and price[cite: 39, 46, 47, 48].
+[cite_start]The HAWK-EYE system is projected to pay for itself in approximately 24 months[cite: 83].
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+| Metric | Manual Process (Current State) | HAWK-EYE System (Projected) | Annual Savings |
+| :--- | :--- | :--- | :--- |
+| **Labor Hours/Day** | 10 hours (2 associates) | 2 hours (supervision/returns) | 8 hours/day |
+| **Annual Labor Cost**| \$80,300 (@ \$22/hr) | \$16,060 | \$64,240 |
+| **Item Retrieval Speed**| ~5 min/item | ~1.5 min/item | 70% Faster |
 
-## Getting Started
+[cite_start]*Table data is estimated for illustration*[cite: 82, 84].
 
-To get a local copy of the simulation environment up and running, follow these simple steps.
+* [cite_start]**Total Annual Benefit:** ~$88,240 (Includes \$64,240 in labor savings and an estimated \$24,000 in ad revenue)[cite: 136, 137, 141].
+* [cite_start]**Investment:** \$150,000 in Year 1 for hardware and integration, followed by \$10,000 per year for licensing and maintenance[cite: 143].
+* [cite_start]**Break-Even Point:** End of Year 2[cite: 145].
+* [cite_start]**5-Year Projection:** A cumulative net benefit of **+$241,200**, representing an approximate **160% ROI**[cite: 147].
 
-### Prerequisites
+## 6. Key Benefits
 
-This is an example of how to list things you need to use the software and how to install them.
-* ROS (Robot Operating System)
-* Python 3.8+
-* npm
-    ```sh
-    npm install npm@latest -g
-    ```
+[cite_start]By automating the tedious, HAWK-EYE elevates the human experience for both associates and customers[cite: 130].
 
-### Installation
+[cite_start]**Better Associate Experience** [cite: 122]
+* [cite_start]Eliminates frustrating and low-value search tasks[cite: 123].
+* [cite_start]Frees up staff to focus on helpful customer interactions and ensuring shelves are properly stocked[cite: 124, 125].
 
-_Below is an example of how you can instruct your audience on installing and setting up your app._
-
-1.  Clone the repo
-    ```sh
-    git clone [https://github.com/github_username/repo_name.git](https://github.com/github_username/repo_name.git)
-    ```
-2.  Install required packages
-    ```sh
-    pip install -r requirements.txt
-    ```
-3.  Enter your simulation API Keys in `config.js`
-    ```js
-    const API_KEY = 'ENTER YOUR API';
-    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Usage
-
-The HAWKEYE system operates in a continuous, three-step cycle to maintain store organization autonomously.
-
-1.  [cite_start]**DETECT:** The store's RFID infrastructure constantly monitors for items that are out of place[cite: 22]. [cite_start]When a misplaced item is identified, its coordinates are instantly sent to the Zebra Aurora software[cite: 31].
-
-2.  [cite_start]**RETRIEVE:** The Zebra Aurora software adds the task to an intelligent queue, prioritized by a machine learning model[cite: 33, 39]. [cite_start]A HAWKEYE robot is then dispatched to the precise location[cite: 24]. [cite_start]Using its Zebra Aurora™ Vision camera, the robot pinpoints the item, and the Universal Robots UR5e arm uses its custom suction gripper to gently retrieve it[cite: 57, 69, 70].
-
-3.  [cite_start]**CONSOLIDATE:** The robot collects multiple items to create an efficient, bulk placement process[cite: 26]. Once its bin is full, it returns to a designated consolidation point for sorting and eventual return to the proper shelf location.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Roadmap
-
--   [x] Conceptualization & Component Selection
--   [x] Financial ROI Modeling
--   [ ] Phase 1: Single-Robot Proof of Concept in Simulated Environment
--   [ ] Phase 2: Live Pilot Program in a Single Retail Store
--   [ ] Phase 3: Multi-Robot Fleet Management & Coordination
-    -   [ ] Integrate advanced collision avoidance
-    -   [ ] Optimize task allocation between multiple units
--   [ ] Phase 4: Integration with Live Inventory & Planogram Systems
-
-See the [open issues](https://github.com/your_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## License
-
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Contact
-
-[cite_start]Team 6 - Adit, Akash, Kshrugal, Manu, Rishi, Sanjay [cite: 3, 4]
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to.
-
-* [cite_start][Walmart](https://corporate.walmart.com/) [cite: 1]
-* [cite_start][Zebra Technologies](https://www.zebra.com/) [cite: 5]
-* [Universal Robots](https://www.universal-robots.com/)
-* [cite_start][McKinsey & Company (Retail Automation ROI Benchmarks)](https://www.mckinsey.com/) [cite: 153]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-[product-screenshot]: https://i.imgur.com/G5T8YhV.png
-[Zebra.com]: https://img.shields.io/badge/Zebra_Technologies-000000?style=for-the-badge&logo=zebra&logoColor=white
-[Zebra-url]: https://www.zebra.com/
-[UniversalRobots.com]: https://img.shields.io/badge/Universal_Robots-00A9E0?style=for-the-badge&logo=universal-robots&logoColor=white
-[UR-url]: https://www.universal-robots.com/
+[cite_start]**Better Customer Experience** [cite: 126]
+* [cite_start]More associates are available on the floor to provide assistance[cite: 127].
+* [cite_start]Faster item returns lead to better on-shelf availability of products[cite: 128].
+* [cite_start]Contributes to a cleaner, more organized store environment[cite: 129].
